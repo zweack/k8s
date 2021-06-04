@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sspl
+  name: centos-app
   labels:
-    app: sspl
+    app: centos-app
 spec:
   replicas: 1
   selector:
